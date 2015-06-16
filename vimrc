@@ -11,9 +11,9 @@ filetype plugin indent on
 " https://github.com/dougireton/mirror_pond
 
 " Tab settings
-set tabstop=4
-set shiftwidth=4
 set expandtab
+set softtabstop=2
+set shiftwidth=2
 
 " Ignore case in search
 set ignorecase
