@@ -20,3 +20,6 @@ set ignorecase
 
 " Colors
 set background=light
+
+" No comments on newline
+" set formatoptions-=o
