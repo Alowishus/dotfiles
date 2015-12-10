@@ -20,3 +20,6 @@ set ignorecase
 
 " Colors
 set background=light
+
+" Ensure Markdown is detected correctly (not Modula-2)
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
