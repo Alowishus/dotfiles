@@ -23,3 +23,6 @@ set background=light
 
 " Ensure Markdown is detected correctly (not Modula-2)
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+" No comments on newline
+" set formatoptions-=o
