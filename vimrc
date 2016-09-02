@@ -26,3 +26,7 @@ autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
 " No comments on newline
 " set formatoptions-=o
+
+" http://jeffkreeftmeijer.com/2013/vims-new-hybrid-line-number-mode/
+set relativenumber
+set number

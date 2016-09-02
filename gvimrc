@@ -6,6 +6,10 @@ set columns=100
 
 set guioptions-=T               " remove toolbar
 
+set background=light
+colorscheme PaperColor
+let g:airline_theme='PaperColor'
+
 set backupcopy=yes
 
 if has("gui_macvim")
